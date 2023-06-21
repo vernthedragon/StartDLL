@@ -6,29 +6,22 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL", "DLL\DLL.vcxproj", "{C935CF86-3369-4C19-B9C5-96872B6256FC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loader", "Loader\Loader.vcxproj", "{A53DBFE6-587E-4035-9C62-D029F4D8AAE4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C935CF86-3369-4C19-B9C5-96872B6256FC} = {C935CF86-3369-4C19-B9C5-96872B6256FC}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C935CF86-3369-4C19-B9C5-96872B6256FC}.Debug|x64.ActiveCfg = Debug|x64
-		{C935CF86-3369-4C19-B9C5-96872B6256FC}.Debug|x64.Build.0 = Debug|x64
 		{C935CF86-3369-4C19-B9C5-96872B6256FC}.Debug|x86.ActiveCfg = Debug|Win32
 		{C935CF86-3369-4C19-B9C5-96872B6256FC}.Debug|x86.Build.0 = Debug|Win32
-		{C935CF86-3369-4C19-B9C5-96872B6256FC}.Release|x64.ActiveCfg = Release|x64
-		{C935CF86-3369-4C19-B9C5-96872B6256FC}.Release|x64.Build.0 = Release|x64
 		{C935CF86-3369-4C19-B9C5-96872B6256FC}.Release|x86.ActiveCfg = Release|Win32
 		{C935CF86-3369-4C19-B9C5-96872B6256FC}.Release|x86.Build.0 = Release|Win32
-		{A53DBFE6-587E-4035-9C62-D029F4D8AAE4}.Debug|x64.ActiveCfg = Debug|x64
-		{A53DBFE6-587E-4035-9C62-D029F4D8AAE4}.Debug|x64.Build.0 = Debug|x64
 		{A53DBFE6-587E-4035-9C62-D029F4D8AAE4}.Debug|x86.ActiveCfg = Debug|Win32
 		{A53DBFE6-587E-4035-9C62-D029F4D8AAE4}.Debug|x86.Build.0 = Debug|Win32
-		{A53DBFE6-587E-4035-9C62-D029F4D8AAE4}.Release|x64.ActiveCfg = Release|x64
-		{A53DBFE6-587E-4035-9C62-D029F4D8AAE4}.Release|x64.Build.0 = Release|x64
 		{A53DBFE6-587E-4035-9C62-D029F4D8AAE4}.Release|x86.ActiveCfg = Release|Win32
 		{A53DBFE6-587E-4035-9C62-D029F4D8AAE4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
